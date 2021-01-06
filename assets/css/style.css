@@ -38,7 +38,7 @@ nav{
     text-decoration: none;
 }
 
-/*----------------------manu bhai ar code akhane---------------*/
+/*----------------------manu ---------------*/
 
 #menu {
     float: left;
@@ -67,4 +67,24 @@ nav{
     text-decoration: none;
 }
 
-/*---------------------------------------------------------*/
+/*---------------------  body css--------------------------*/
+.name-highlight{
+    color: orange;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
+}
+
+.top-banner{
+    background-image: url("assets/images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
