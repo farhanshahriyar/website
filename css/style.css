@@ -12,6 +12,9 @@ p{
     color : #333333;
 }
 
+a{
+    text-decoration: none;
+}
 
 .name-highlight{
     color: #ffcc00;
@@ -24,7 +27,8 @@ p{
     padding-left: 2%;
 }
 .half-width img {
-    width: 100%;
+    width: 80%;
+    padding-left: 100px;
 }
 
 .top-banner{
@@ -55,25 +59,28 @@ section{
 .work{
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
-    height: 70%;
+    height: 40%;
+    width: 24%;
     background-color:  white;
+    float: left;
 }
 
 .lastest-work {
     background-image: url("../images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    text-align: center;
 }
+
 
 
 
 .client-say{
     background-image: url("../images/footer-bg.png");
+    
+    margin: auto;
 }
 
-.client {
-    text-align: center;
-}
 
 
 footer p{
